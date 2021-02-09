@@ -93,3 +93,18 @@ h3 {
 .home_image {
   padding: 30px;
 }
+
+.container__thumbnails {
+  display: flex;
+  border-color: black;
+  justify-content: space-around;
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+.thumbnail {
+  background-color: Dodgerblue;
+  height: 150px;
+  width: 150px;
+  border: 5px solid turquoise;
+}
