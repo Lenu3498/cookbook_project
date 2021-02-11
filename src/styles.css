@@ -51,13 +51,17 @@ table {
 body {
   font-family: "Goudy Old Style", Serif, cursive;
   margin: 20px;
+  background-color: antiquewhite;
 }
 
 .header {
   display: flex;
   /*align-items: center;*/
   background-color: #701a1a;
+  /*
   color: rgb(75, 95, 75);
+  */
+  color: antiquewhite;
   padding: 20px 20px;
   margin: 20px 0px;
 }
@@ -83,40 +87,47 @@ h3 {
   justify-content: space-around;
   text-transform: uppercase;
   background-color: antiquewhite;
-  /*border-style: inset;
+  /*border-style: solid;
   border-color: #701a1a;
   border-width: 2px;*/
+  margin: 30px;
   padding: 20px;
-  /*margin: 20px;
   */
 }
 
 .menu__item {
-  color: rgb(75, 95, 75);
+  color: #701a1a;
   font-weight: bold;
+  font-size: 20px;
+  transition: transform 0.2s;
+}
+
+hr {
+  /*height: 0.5px;*/
+  background-color:;
+  width: 30%;
+  margin: auto;
+  border-top: 1.5px dotted  #701a1a;
 }
 
 .home_image {
-  padding: 30px;
+  padding: 50px;
 }
 
 .container__thumbnails {
   display: flex;
-  justify-content: space-around;
-  background-color: antiquewhite;
-  border: 2px solid rgb(75, 95, 75);
-  padding: 20px;
+  justify-content: space-between;
+  /*background-color: antiquewhite;
+  border: 2px solid rgb(75, 95, 75);*/
+  padding: 50px;
+  margin: 20px;
 }
 
 .thumbnail {
   display: flex;
   align-items: center;
-  background-color: white;
-  height: 200px;
-  width: 200px;
-  border: 2px solid rgb(75, 95, 75);
-}
-.img_thumbnail {
-  height: 200px;
-  width: 200px;
+  background-color: antiquewhite;
+  height: 300px;
+  width: 300px;
+  /* border: 2px solid rgb(75, 95, 75);*/
 }
